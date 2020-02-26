@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iRacingSdkWrapper", "iRacingSdkWrapper\iRacingSdkWrapper.csproj", "{D6DB568B-35B3-49EB-8CB3-E4E5F1424247}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iRacingSdkWrapper.Examples.BroadcastMessages", "Samples\iRacingSdkWrapper.Examples.BroadcastMessages\iRacingSdkWrapper.Examples.BroadcastMessages.csproj", "{426199FD-4CB6-4AB8-8B42-053368F49416}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iRacingSimulator.Examples.IncidentLog", "Samples\iRacingSimulator.Examples.IncidentLog\iRacingSimulator.Examples.IncidentLog.csproj", "{991ED105-83E9-47C4-BF23-C4C99EACACEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{B54AEF89-E8E8-40EC-A598-71A24512A31B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,5 +62,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBB48CBA-25AC-4D1A-A2E4-F9BA04EDF23E} = {B54AEF89-E8E8-40EC-A598-71A24512A31B}
+		{B36991C5-2B13-4487-B42B-FA1EE0A7721F} = {B54AEF89-E8E8-40EC-A598-71A24512A31B}
+		{34F020F4-F320-4C65-9EC0-F2939AD9D7CB} = {B54AEF89-E8E8-40EC-A598-71A24512A31B}
+		{426199FD-4CB6-4AB8-8B42-053368F49416} = {B54AEF89-E8E8-40EC-A598-71A24512A31B}
+		{991ED105-83E9-47C4-BF23-C4C99EACACEA} = {B54AEF89-E8E8-40EC-A598-71A24512A31B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1DDECE0-F483-48F7-BF0A-89E2DC115945}
 	EndGlobalSection
 EndGlobal
